@@ -1,0 +1,45 @@
+<!html>
+	<head>
+		<style>
+			#enter-source {
+				width: 400px;
+				height: 200px;
+			}
+			#no-of-discs, #clicks, #keyer {
+				width: 200px;
+			}
+			.enter {
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 12px;
+				padding: 40px;
+			}
+			.target {
+				margin-bottom: 20px;
+			}
+			label {
+				display: block;
+				font-weight: bold;
+				font-size: 14px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="enter">
+			<h1>Lucas' Tower / Tower of Hanoi Demo</h1>
+			<div class="target"></div>
+			<label for="enter-source">Enter Source</label>
+			<textarea id="enter-source"></textarea>
+			<p>or</p>
+			<label for="no-of-discs">Specify Number of Discs</label>
+			<p><input type="text" id="no-of-discs" /></p>
+			<p><button id="trigger-tower">CREATE TOWER</button> <button id="trigger-tower-solve">CREATE &amp; SOLVE</button> <button id="reset-tower">RESET</button></p>
+
+			<p><button id="start-egg-mode">EASTER EGG MODE</button></p>
+			<p><input type="text" id="clicks" /> <input type="text" id="keyer" /></p>
+		</div>
+
+		<script data-main="tower-demo" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.4/require.min.js"></script>
+	</body>
+</html>
