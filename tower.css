@@ -42,7 +42,7 @@
 	background-image:
 		-webkit-linear-gradient(left, transparent 52px, #53c66d 52px, #c6f1a2 72px, #53c66d 84px, transparent 88px);
 	background-image:
-		linear-gradient(left, transparent 25%, #c6f1a2 26%, #53c66d 34%, transparent 36%);
+		linear-gradient(left, transparent 52px, #53c66d 52px, #c6f1a2 72px, #53c66d 84px, transparent 88px);
 }
 
 .tower-peg-top {
@@ -56,7 +56,7 @@
 	background-image:
 		-webkit-radial-gradient(20px bottom, 20px 13px, #c6f1a2 0%, #53c66d 88%, rgba(0, 0, 0, 0) 88%);
 	background-image:
-		radial-gradient(10% 10% at 25% bottom, #c6f1a2 22%, #3d9952 88%, rgba(0, 0, 0, 0) 88%);;
+		radial-gradient(20px 13px at 20px bottom, #c6f1a2 0%, #53c66d 88%, rgba(0, 0, 0, 0) 88%);;
 }
 
 .tower-discs {
